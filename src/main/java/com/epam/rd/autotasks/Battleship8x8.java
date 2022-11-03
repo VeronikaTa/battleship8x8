@@ -1,4 +1,4 @@
-package com.epam.rd.autotasks;
+package com.epam.training.student_veronika_tarasova.battleship8x8.src.main.java.com.epam.rd.autotasks;
 
 public class Battleship8x8 {
     private final long ships;

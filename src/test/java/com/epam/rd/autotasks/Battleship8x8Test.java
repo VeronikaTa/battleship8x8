@@ -1,17 +1,15 @@
-package com.epam.rd.autotasks;
+package com.epam.training.student_veronika_tarasova.battleship8x8.src.test.java.com.epam.rd.autotasks;
 
-import org.junit.jupiter.api.Test;
+import com.epam.training.student_veronika_tarasova.battleship8x8.src.main.java.com.epam.rd.autotasks.Battleship8x8;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.List;
-import java.util.Map;
-import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 class Battleship8x8Test {
